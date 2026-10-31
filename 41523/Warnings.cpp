@@ -6,10 +6,10 @@ int main() {
         if (result2 == ID_YES) {
           //Your script
         } else if (result2 == ID_NO) {
-          break;
+          return 0;
         }
-      } else if (result = ID_NO) {
-        break;
+      } else if (result == ID_NO) {
+        return 0;
       }
     return 0;
 }
