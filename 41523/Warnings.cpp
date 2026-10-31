@@ -1,8 +1,8 @@
 #include <windows.h>
 int main() {
-      int result = MessageBoxW(NULL, L"Warning", L"Warning", MB_YESNO);
+      int result = MessageBoxW(NULL, L"Warning", L"Warning", MB_ICONWARNING | MB_YESNO);
       if (result == IDYES) {
-        int result2 = MessageBoxW(NULL, L"Last Warning", L"Last Warning", MB_YESNO);
+        int result2 = MessageBoxW(NULL, L"Last Warning", L"Last Warning", MB_ICONWARNING | MB_YESNO);
         if (result2 == IDYES) {
           //Your script
         } else if (result2 == IDNO) {
